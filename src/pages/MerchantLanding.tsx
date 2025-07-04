@@ -81,28 +81,38 @@ const MerchantLanding = () => {
         <motion.ul variants={item} className="merchant-benefit-list mt-8 space-y-4 text-left">
           <li>
             <span className="merchant-benefit-dot" />
-            <span className="text-accent font-medium">2.5%</span>
-            <span className="text-text-secondary"> flat fee (vs 3-8% traditional BNPL)</span>
+            <span>
+              <span className="text-accent font-medium">2.5%</span>
+              <span className="text-text-secondary"> flat fee (vs 3-8% traditional BNPL)</span>
+            </span>
           </li>
           <li>
             <span className="merchant-benefit-dot" />
-            <span className="text-accent font-medium">Native crypto payment –</span>
-            <span className="text-text-secondary"> accept any coin on any chain</span>
+            <span>
+              <span className="text-accent font-medium">Native crypto payment –</span>
+              <span className="text-text-secondary block sm:inline"> accept any coin on any chain</span>
+            </span>
           </li>
           <li>
             <span className="merchant-benefit-dot" />
-            <span className="text-accent font-medium">Referral boost:</span>
-            <span className="text-text-secondary"> bring a Klarna merchant → fee – 0.1%</span>
+            <span>
+              <span className="text-accent font-medium">Referral boost:</span>
+              <span className="text-text-secondary block sm:inline"> bring a Klarna merchant → fee – 0.1%</span>
+            </span>
           </li>
           <li>
             <span className="merchant-benefit-dot" />
-            <span className="text-accent font-medium">30-min</span>
-            <span className="text-text-secondary"> SDK install + custom dev support</span>
+            <span>
+              <span className="text-accent font-medium">30-min</span>
+              <span className="text-text-secondary"> SDK install + custom dev support</span>
+            </span>
           </li>
           <li>
             <span className="merchant-benefit-dot" />
-            <span className="text-accent font-medium">Payout in stable-coins or</span>
-            <span className="text-text-secondary"> fiat, your choice</span>
+            <span>
+              <span className="text-accent font-medium">Payout in stable-coins or</span>
+              <span className="text-text-secondary"> fiat, your choice</span>
+            </span>
           </li>
         </motion.ul>
 
