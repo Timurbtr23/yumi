@@ -1,0 +1,28 @@
+/* Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS variables */
+:root {
+  --background: #000000;
+  --accent: #C9F299;
+  --text-primary: #FFFFFF;
+  --text-secondary: #6C6C6C;
+  --subtle-glow: rgba(201, 242, 153, 0.1);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+/* Subtle glow hover effect */
+.hover\:glow:hover {
+  box-shadow: 0 0 8px var(--subtle-glow);
+} 
