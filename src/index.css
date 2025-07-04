@@ -27,6 +27,18 @@ body {
   box-shadow: 0 0 8px var(--subtle-glow);
 }
 
+.merchant-benefit-dot {
+  width: 0.7em;
+  height: 0.7em;
+  margin-top: 0.6em;
+  border-radius: 9999px;
+  background: var(--accent);
+  flex-shrink: 0;
+  margin-right: 0.7em;
+  margin-left: 0.1em;
+  display: inline-block;
+}
+
 @media (max-width: 640px) {
   .merchant-nav-link {
     background: none !important;
@@ -53,15 +65,5 @@ body {
     font-size: 1rem !important;
     line-height: 1.5 !important;
     margin-bottom: 0.75rem !important;
-  }
-  .merchant-benefit-dot {
-    width: 0.5em;
-    height: 0.5em;
-    margin-top: 0.5em;
-    border-radius: 9999px;
-    background: var(--accent);
-    flex-shrink: 0;
-    margin-right: 0.5em;
-    margin-left: 0.1em;
   }
 } 
