@@ -57,7 +57,9 @@ const MerchantLanding = () => {
             </svg>
           </Link>
           <a
-            href="https://cal.com/your-booking-link" // placeholder
+            href="https://t.me/timurbtr23"
+            target="_blank"
+            rel="noopener noreferrer"
             className="merchant-nav-cta bg-accent text-background font-medium px-6 py-2 rounded-md hover:-translate-y-[2px] transition-transform hover:glow shadow-lg shadow-accent/10 flex items-center gap-2"
           >
             Book a Call
