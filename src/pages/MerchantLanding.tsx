@@ -49,8 +49,7 @@ const MerchantLanding = () => {
         <div className="flex items-center gap-4">
           <Link
             to="/"
-            className="flex items-center gap-2 text-text-secondary hover:text-accent transition-colors text-sm font-medium px-4 py-2 rounded-md bg-background/60 backdrop-blur-sm border border-white/10 shadow-sm"
-            style={{ boxShadow: '0 2px 16px 0 rgba(0,0,0,0.10)' }}
+            className="merchant-nav-link flex items-center gap-2 text-text-secondary hover:text-accent transition-colors text-sm font-medium"
           >
             For Shoppers
             <svg width="18" height="18" fill="none" viewBox="0 0 18 18" aria-hidden="true">
@@ -59,7 +58,7 @@ const MerchantLanding = () => {
           </Link>
           <a
             href="https://cal.com/your-booking-link" // placeholder
-            className="bg-accent text-background font-medium px-6 py-2 rounded-md hover:-translate-y-[2px] transition-transform hover:glow shadow-lg shadow-accent/10 flex items-center gap-2"
+            className="merchant-nav-cta bg-accent text-background font-medium px-6 py-2 rounded-md hover:-translate-y-[2px] transition-transform hover:glow shadow-lg shadow-accent/10 flex items-center gap-2"
           >
             Book a Call
           </a>
@@ -79,26 +78,31 @@ const MerchantLanding = () => {
           Yumi for Merchants
         </motion.h2>
 
-        <motion.ul variants={item} className="mt-8 space-y-4 text-left">
-          <li className="flex gap-2">
-            <span className="text-accent font-medium">2.5% </span>
-            <span className="text-text-secondary">flat fee (vs 3-8% traditional BNPL)</span>
+        <motion.ul variants={item} className="merchant-benefit-list mt-8 space-y-4 text-left">
+          <li>
+            <span className="merchant-benefit-dot" />
+            <span className="text-accent font-medium">2.5%</span>
+            <span className="text-text-secondary"> flat fee (vs 3-8% traditional BNPL)</span>
           </li>
-          <li className="flex gap-2">
+          <li>
+            <span className="merchant-benefit-dot" />
             <span className="text-accent font-medium">Native crypto payment –</span>
-            <span className="text-text-secondary">accept any coin on any chain</span>
+            <span className="text-text-secondary"> accept any coin on any chain</span>
           </li>
-          <li className="flex gap-2">
+          <li>
+            <span className="merchant-benefit-dot" />
             <span className="text-accent font-medium">Referral boost:</span>
-            <span className="text-text-secondary">bring a Klarna merchant → fee – 0.1%</span>
+            <span className="text-text-secondary"> bring a Klarna merchant → fee – 0.1%</span>
           </li>
-          <li className="flex gap-2">
+          <li>
+            <span className="merchant-benefit-dot" />
             <span className="text-accent font-medium">30-min</span>
-            <span className="text-text-secondary">SDK install + custom dev support</span>
+            <span className="text-text-secondary"> SDK install + custom dev support</span>
           </li>
-          <li className="flex gap-2">
+          <li>
+            <span className="merchant-benefit-dot" />
             <span className="text-accent font-medium">Payout in stable-coins or</span>
-            <span className="text-text-secondary">fiat, your choice</span>
+            <span className="text-text-secondary"> fiat, your choice</span>
           </li>
         </motion.ul>
 
